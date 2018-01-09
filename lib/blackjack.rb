@@ -36,7 +36,8 @@ def hit?
       initial_round
     else get_user_input != 's'
       invalid_command
-    end  
+    end
+  end
 end
 
 def invalid_command
