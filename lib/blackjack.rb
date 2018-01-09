@@ -56,6 +56,6 @@ def runner
   total = hit?(inital_total)
   display_card_total(total)
   if total > 21
-    end_game
+    end_game(total)
   end
 end
